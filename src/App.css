@@ -487,8 +487,7 @@
 .freelance-card {
   position: absolute;
   right: 0;
-  
-  bottom: 100px;
+  bottom: 80px;
   width: 225px;
   min-height: 100px;
   padding: 16px;
@@ -542,10 +541,6 @@
   color: #ffffff;
   font-size: 17px;
   margin-left: 5px;
-}
-
-.freelance-card {
-  bottom: 100px;
 }
 
 
