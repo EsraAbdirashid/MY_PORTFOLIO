@@ -47,25 +47,69 @@ function Hero() {
               FOLLOW ME
             </span>
 
-            <div className="social-links">
+              <div className="social-links">
 
-              <a href="#" aria-label="Facebook">
-                f
-              </a>
+  {/* Facebook */}
+  <a href="#" aria-label="Facebook">
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path
+        fill="currentColor"
+        d="M13.5 21v-8h2.7l.4-3h-3.1V8.1c0-.9.3-1.5 1.6-1.5h1.7V3.9c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3V10H7.3v3h2.8v8h3.4Z"
+      />
+    </svg>
+  </a>
 
-              <a href="#" aria-label="LinkedIn">
-                in
-              </a>
+  {/* LinkedIn */}
+  <a href="#" aria-label="LinkedIn">
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path
+        fill="currentColor"
+        d="M6.2 8.3H3V21h3.2V8.3ZM4.6 3A1.9 1.9 0 1 0 4.6 6.8 1.9 1.9 0 0 0 4.6 3ZM21 13.7c0-3.8-2-5.6-4.8-5.6-2.2 0-3.2 1.2-3.8 2v-1.8H9.2V21h3.2v-6.3c0-1.7.3-3.3 2.4-3.3 2.1 0 2.1 1.9 2.1 3.4V21H21v-7.3Z"
+      />
+    </svg>
+  </a>
 
-              <a href="#" aria-label="Instagram">
-                ◎
-              </a>
+  {/* Instagram */}
+  <a href="#" aria-label="Instagram">
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <rect
+        x="3"
+        y="3"
+        width="18"
+        height="18"
+        rx="5"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="2"
+      />
+      <circle
+        cx="12"
+        cy="12"
+        r="4"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="2"
+      />
+      <circle
+        cx="17.5"
+        cy="6.5"
+        r="1"
+        fill="currentColor"
+      />
+    </svg>
+  </a>
 
-              <a href="#" aria-label="GitHub">
-                ◉
-              </a>
+  {/* GitHub */}
+  <a href="#" aria-label="GitHub">
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path
+        fill="currentColor"
+        d="M12 .5a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2.2c-3.3.7-4-1.4-4-1.4-.5-1.3-1.3-1.7-1.3-1.7-1.1-.8.1-.8.1-.8 1.2.1 1.8 1.2 1.8 1.2 1.1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.4-5.5-6a4.7 4.7 0 0 1 1.2-3.3c-.1-.3-.5-1.6.1-3.2 0 0 1-.3 3.3 1.2a11.4 11.4 0 0 1 6 0C15.5 3.9 16.5 4.2 16.5 4.2c.6 1.6.2 2.9.1 3.2a4.7 4.7 0 0 1 1.2 3.3c0 4.6-2.8 5.7-5.5 6 .4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .5Z"
+      />
+    </svg>
+  </a>
 
-            </div>
+</div>
 
           </div>
 
