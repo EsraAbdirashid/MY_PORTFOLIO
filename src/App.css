@@ -1543,3 +1543,41 @@
   }
 }
 
+/* =========================
+   REAL LOGO IMAGE
+========================= */
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.logo-image {
+  display: block;
+  width: 125px;
+  height: auto;
+  object-fit: contain;
+}
+
+
+/* =========================
+   MOBILE LOGO
+========================= */
+
+@media (max-width: 768px) {
+
+  .logo-image {
+    width: 105px;
+    height: auto;
+  }
+
+}
+
+@media (max-width: 480px) {
+
+  .logo-image {
+    width: 95px;
+  }
+
+}
