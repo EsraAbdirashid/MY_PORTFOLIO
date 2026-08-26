@@ -488,7 +488,7 @@
   position: absolute;
   right: 0;
   
-  bottom: 55px;
+  bottom: 100px;
   width: 225px;
   min-height: 100px;
   padding: 16px;
@@ -542,6 +542,10 @@
   color: #ffffff;
   font-size: 17px;
   margin-left: 5px;
+}
+
+.freelance-card {
+  bottom: 100px;
 }
 
 
@@ -675,6 +679,10 @@
     width: 205px;
   }
 
+@media (max-width: 768px) {
+  .freelance-card {
+    bottom: 25px;
+  }
 }
 
 
@@ -756,4 +764,10 @@
     font-size: 10px;
   }
 
+}
+
+@media (max-width: 480px) {
+  .freelance-card {
+    bottom: 15px;
+  }
 }
