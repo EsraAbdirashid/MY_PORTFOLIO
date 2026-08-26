@@ -1,4 +1,5 @@
 import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
 
 function App() {
   return (
@@ -6,10 +7,7 @@ function App() {
       <Navbar />
 
       <main>
-        <section id="home" className="placeholder-section">
-          <h1>ESRA DIGITAL</h1>
-          <p>Anigaa leh</p>
-        </section>
+        <Hero />
       </main>
     </>
   );
