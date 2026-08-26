@@ -1166,3 +1166,215 @@
 
 }
 
+/* =========================
+   NAVBAR RESPONSIVE
+========================= */
+
+.menu-toggle {
+  display: none;
+  width: 42px;
+  height: 42px;
+  padding: 8px;
+  border: 1px solid rgba(37, 99, 235, 0.35);
+  border-radius: 8px;
+  background: transparent;
+  cursor: pointer;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.menu-toggle span {
+  display: block;
+  width: 21px;
+  height: 2px;
+  border-radius: 3px;
+  background: #ffffff;
+  transition: 0.3s ease;
+}
+
+.mobile-hire-btn {
+  display: none;
+}
+
+
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 900px) {
+
+  .nav-links {
+    gap: 22px;
+  }
+
+  .nav-links a {
+    font-size: 14px;
+  }
+
+  .hire-btn {
+    padding: 9px 15px;
+  }
+
+}
+
+
+/* =========================
+   MOBILE NAVBAR
+========================= */
+
+@media (max-width: 768px) {
+
+  .navbar {
+    height: 75px;
+  }
+
+  .navbar-container {
+    height: 75px;
+  }
+
+  .logo {
+    gap: 4px;
+  }
+
+  .logo-icon {
+    width: 58px;
+    height: 34px;
+    transform: scale(0.82);
+    transform-origin: left center;
+  }
+
+  .logo-text {
+    font-size: 12px;
+  }
+
+  /* Hide desktop hire button */
+  .navbar > .navbar-container > .hire-btn {
+    display: none;
+  }
+
+  /* Hamburger */
+  .menu-toggle {
+    display: flex;
+    position: relative;
+    z-index: 1002;
+  }
+
+  /* Mobile menu */
+  .nav-links {
+    position: fixed;
+    top: 75px;
+    left: 0;
+    width: 100%;
+    height: calc(100vh - 75px);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    gap: 0;
+    padding: 35px 20px;
+
+    background: #020817;
+    border-top: 1px solid rgba(37, 99, 235, 0.12);
+
+    transform: translateX(100%);
+    visibility: hidden;
+    opacity: 0;
+
+    transition:
+      transform 0.3s ease,
+      opacity 0.3s ease,
+      visibility 0.3s ease;
+
+    z-index: 1001;
+  }
+
+  .nav-links.open {
+    transform: translateX(0);
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .nav-links a {
+    width: 100%;
+    max-width: 320px;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+  }
+
+  .nav-links a.active::after {
+    display: none;
+  }
+
+  .nav-links a.active {
+    color: #2563eb;
+  }
+
+  /* Mobile Hire Me */
+  .nav-links .mobile-hire-btn {
+    display: flex;
+    width: auto;
+    min-width: 150px;
+    margin-top: 25px;
+    padding: 11px 20px;
+
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+
+    border: 1px solid #2563eb;
+    border-radius: 8px;
+    color: #ffffff;
+  }
+
+  .mobile-hire-btn span {
+    color: #60a5fa;
+    font-size: 19px;
+  }
+
+  /* Hamburger animation */
+  .menu-toggle.active span:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+  }
+
+  .menu-toggle.active span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .menu-toggle.active span:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+  }
+
+}
+
+
+/* =========================
+   SMALL MOBILE
+========================= */
+
+@media (max-width: 480px) {
+
+  .navbar {
+    height: 70px;
+  }
+
+  .navbar-container {
+    height: 70px;
+  }
+
+  .nav-links {
+    top: 70px;
+    height: calc(100vh - 70px);
+  }
+
+  .menu-toggle {
+    width: 40px;
+    height: 40px;
+  }
+
+}
