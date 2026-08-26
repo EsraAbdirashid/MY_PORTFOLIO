@@ -367,7 +367,7 @@
 
 .profile-wrapper {
   position: absolute;
-  bottom: 18px;
+  bottom: 65px;
   left: 50%;
   width: 420px;
   height: 475px;
@@ -634,9 +634,11 @@
     top: 25px;
   }
 
-  .profile-wrapper {
-    width: 350px;
-    height: 430px;
+ .profile-wrapper {
+  width: 350px;
+  height: 430px;
+  bottom: 10px;
+}
   }
 
   .digital-lines {
