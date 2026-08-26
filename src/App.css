@@ -118,3 +118,602 @@
   font-size: 18px;
 }
 
+
+/* =========================
+   HERO SECTION
+========================= */
+
+.hero {
+  min-height: calc(100vh - 90px);
+  background: #020817;
+  overflow: hidden;
+  position: relative;
+}
+
+.hero-container {
+  min-height: calc(100vh - 90px);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  position: relative;
+}
+
+
+/* =========================
+   HERO CONTENT
+========================= */
+
+.hero-content {
+  position: relative;
+  z-index: 5;
+  padding: 50px 0 60px;
+}
+
+.hero-greeting {
+  display: block;
+  color: #2563eb;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px;
+}
+
+.hero-content h1 {
+  color: #ffffff;
+  font-size: clamp(46px, 5vw, 58px);
+  line-height: 1.05;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.hero-content h2 {
+  color: #2563eb;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 14px;
+}
+
+.hero-description {
+  max-width: 430px;
+  color: #c4cad6;
+  font-size: 15px;
+  line-height: 1.7;
+  margin-bottom: 26px;
+}
+
+
+/* =========================
+   HERO BUTTONS
+========================= */
+
+.hero-buttons {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 22px;
+}
+
+.primary-btn,
+.secondary-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  min-width: 165px;
+  padding: 11px 18px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.primary-btn {
+  color: #ffffff;
+  background: #2563eb;
+  border: 1px solid #2563eb;
+  box-shadow: 0 8px 25px rgba(37, 99, 235, 0.2);
+}
+
+.primary-btn span,
+.secondary-btn span {
+  font-size: 19px;
+  line-height: 1;
+}
+
+.primary-btn:hover {
+  background: #1d4ed8;
+  transform: translateY(-2px);
+}
+
+.secondary-btn {
+  color: #ffffff;
+  border: 1px solid #2563eb;
+  background: transparent;
+}
+
+.secondary-btn:hover {
+  background: rgba(37, 99, 235, 0.1);
+  transform: translateY(-2px);
+}
+
+
+/* =========================
+   SOCIAL MEDIA
+========================= */
+
+.social-area {
+  margin-top: 8px;
+}
+
+.social-title {
+  display: block;
+  color: #2563eb;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  margin-bottom: 10px;
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.social-links a {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  background: rgba(15, 32, 61, 0.85);
+  border: 1px solid rgba(37, 99, 235, 0.08);
+  font-size: 18px;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #ffffff;
+  background: #2563eb;
+  transform: translateY(-3px);
+}
+
+
+/* =========================
+   HERO VISUAL
+========================= */
+
+.hero-visual {
+  height: 100%;
+  min-height: 520px;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+
+/* =========================
+   BLUE CIRCLE
+========================= */
+
+.hero-circle {
+  position: absolute;
+  width: 430px;
+  height: 430px;
+  border-radius: 50%;
+  background:
+    radial-gradient(
+      circle at center,
+      rgba(37, 99, 235, 0.42) 0%,
+      rgba(29, 78, 216, 0.32) 40%,
+      rgba(15, 23, 42, 0.1) 70%,
+      transparent 72%
+    );
+  top: 55px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+/* Outer digital rings */
+
+.hero-circle::before,
+.hero-circle::after {
+  content: "";
+  position: absolute;
+  border: 1px solid rgba(37, 99, 235, 0.25);
+  border-radius: 50%;
+}
+
+.hero-circle::before {
+  inset: -18px;
+}
+
+.hero-circle::after {
+  inset: -35px;
+  border-color: rgba(37, 99, 235, 0.12);
+}
+
+
+/* =========================
+   PROFILE IMAGE
+========================= */
+
+.profile-wrapper {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 420px;
+  height: 475px;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  z-index: 3;
+}
+
+.profile-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center bottom;
+  filter: drop-shadow(0 0 25px rgba(37, 99, 235, 0.18));
+}
+
+
+/* =========================
+   DIGITAL LINES
+========================= */
+
+.digital-lines {
+  position: absolute;
+  left: 2%;
+  top: 160px;
+  width: 210px;
+  height: 250px;
+  z-index: 1;
+}
+
+.digital-lines span {
+  position: absolute;
+  left: 0;
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    rgba(37, 99, 235, 0.75),
+    rgba(37, 99, 235, 0)
+  );
+}
+
+.digital-lines span::before {
+  content: "";
+  position: absolute;
+  left: -3px;
+  top: -2px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #2563eb;
+  box-shadow: 0 0 8px rgba(37, 99, 235, 0.7);
+}
+
+.digital-lines span:nth-child(1) {
+  top: 15px;
+  width: 150px;
+}
+
+.digital-lines span:nth-child(2) {
+  top: 55px;
+  width: 190px;
+}
+
+.digital-lines span:nth-child(3) {
+  top: 95px;
+  width: 160px;
+}
+
+.digital-lines span:nth-child(4) {
+  top: 135px;
+  width: 205px;
+}
+
+.digital-lines span:nth-child(5) {
+  top: 175px;
+  width: 175px;
+}
+
+.digital-lines span:nth-child(6) {
+  top: 215px;
+  width: 145px;
+}
+
+
+/* =========================
+   DIGITAL DOTS
+========================= */
+
+.digital-dots {
+  position: absolute;
+  right: 2%;
+  top: 75px;
+  width: 170px;
+  height: 190px;
+  opacity: 0.45;
+  background-image: radial-gradient(
+    rgba(37, 99, 235, 0.7) 1px,
+    transparent 1px
+  );
+  background-size: 10px 10px;
+  z-index: 1;
+}
+
+
+/* =========================
+   FREELANCE CARD
+========================= */
+
+.freelance-card {
+  position: absolute;
+  right: 0;
+  bottom: 55px;
+  width: 225px;
+  min-height: 112px;
+  padding: 16px;
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  border: 1px solid rgba(37, 99, 235, 0.75);
+  border-radius: 9px;
+  background: rgba(2, 8, 23, 0.92);
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.3);
+  z-index: 6;
+}
+
+.freelance-icon {
+  width: 42px;
+  height: 42px;
+  flex-shrink: 0;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  background: #2563eb;
+}
+
+.freelance-content h3 {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 1.35;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.freelance-content p {
+  position: relative;
+  color: #aab2c0;
+  font-size: 11px;
+  line-height: 1.5;
+}
+
+.freelance-content p span {
+  color: #ffffff;
+  font-size: 17px;
+  margin-left: 5px;
+}
+
+
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 1024px) {
+
+  .hero-container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .hero-content h1 {
+    font-size: 44px;
+  }
+
+  .hero-content h2 {
+    font-size: 18px;
+  }
+
+  .hero-description {
+    max-width: 380px;
+  }
+
+  .hero-circle {
+    width: 360px;
+    height: 360px;
+  }
+
+  .profile-wrapper {
+    width: 360px;
+    height: 420px;
+  }
+
+  .freelance-card {
+    right: -5px;
+    width: 205px;
+  }
+
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 768px) {
+
+  .hero {
+    min-height: auto;
+  }
+
+  .hero-container {
+    min-height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-content {
+    width: 100%;
+    text-align: center;
+    padding: 55px 0 25px;
+  }
+
+  .hero-greeting {
+    font-size: 14px;
+  }
+
+  .hero-content h1 {
+    font-size: 42px;
+  }
+
+  .hero-content h2 {
+    font-size: 17px;
+  }
+
+  .hero-description {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .social-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-visual {
+    width: 100%;
+    min-height: 470px;
+    margin-top: 10px;
+  }
+
+  .hero-circle {
+    width: 350px;
+    height: 350px;
+    top: 25px;
+  }
+
+  .profile-wrapper {
+    width: 350px;
+    height: 430px;
+  }
+
+  .digital-lines {
+    left: 0;
+    transform: scale(0.75);
+    transform-origin: left center;
+  }
+
+  .digital-dots {
+    right: 0;
+    transform: scale(0.75);
+    transform-origin: right center;
+  }
+
+  .freelance-card {
+    right: 5px;
+    bottom: 25px;
+    width: 205px;
+  }
+
+}
+
+
+/* =========================
+   SMALL MOBILE
+========================= */
+
+@media (max-width: 480px) {
+
+  .hero-content {
+    padding-top: 40px;
+  }
+
+  .hero-content h1 {
+    font-size: 35px;
+  }
+
+  .hero-content h2 {
+    font-size: 15px;
+  }
+
+  .hero-description {
+    padding: 0 10px;
+    font-size: 13px;
+  }
+
+  .hero-buttons {
+    gap: 10px;
+  }
+
+  .primary-btn,
+  .secondary-btn {
+    min-width: 145px;
+    padding: 10px 13px;
+    font-size: 13px;
+  }
+
+  .hero-visual {
+    min-height: 410px;
+  }
+
+  .hero-circle {
+    width: 290px;
+    height: 290px;
+  }
+
+  .profile-wrapper {
+    width: 300px;
+    height: 370px;
+  }
+
+  .digital-lines {
+    left: -35px;
+    transform: scale(0.55);
+  }
+
+  .digital-dots {
+    right: -30px;
+    transform: scale(0.55);
+  }
+
+  .freelance-card {
+    right: 0;
+    bottom: 15px;
+    width: 190px;
+    padding: 12px;
+  }
+
+  .freelance-icon {
+    width: 36px;
+    height: 36px;
+  }
+
+  .freelance-content h3 {
+    font-size: 12px;
+  }
+
+  .freelance-content p {
+    font-size: 10px;
+  }
+
+}
