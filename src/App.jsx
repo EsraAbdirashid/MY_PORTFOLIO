@@ -8,6 +8,7 @@ function App() {
 
       <main>
         <Hero />
+        <About />
       </main>
     </>
   );
