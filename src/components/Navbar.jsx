@@ -1,3 +1,5 @@
+import logo from "../assets/logowhite.png";
+
 function Navbar() {
   return (
     <header className="navbar">
@@ -5,14 +7,7 @@ function Navbar() {
 
         {/* Logo */}
         <a href="#home" className="logo">
-          <div className="logo-icon">
-            <span></span>
-            <span></span>
-          </div>
-
-          <div className="logo-text">
-            ESRA DIGITAL
-          </div>
+          <img src={logo} alt="ESRA DIGITAL" className="logo-image" />
         </a>
 
         {/* Navigation */}
