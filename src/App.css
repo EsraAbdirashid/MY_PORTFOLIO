@@ -20,47 +20,10 @@
 /* =========================
    LOGO
 ========================= */
-
-.logo {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 7px;
-}
-
-.logo-icon {
-  width: 72px;
-  height: 42px;
-  position: relative;
-}
-
-.logo-icon::before {
-  content: "";
-  position: absolute;
-  top: 2px;
-  left: 0;
-  width: 50px;
-  height: 20px;
-  border-top: 4px solid #ffffff;
-  border-right: 4px solid #ffffff;
-  border-radius: 0 25px 0 0;
-}
-
-.logo-icon::after {
-  content: "";
-  position: absolute;
-  top: 25px;
-  left: 0;
-  width: 34px;
-  height: 4px;
-  background: #ffffff;
-  box-shadow: 0 -12px 0 #ffffff;
-}
-
-.logo-text {
-  font-size: 14px;
-  font-weight: 700;
-  letter-spacing: 0.5px;
+    .logo-image {
+  width: 90px;
+  height: auto;
+  display: block;
 }
 
 /* =========================
@@ -155,8 +118,3 @@
   font-size: 18px;
 }
 
-.logo-image {
-  width: 120px;
-  height: auto;
-  display: block;
-}
