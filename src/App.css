@@ -1555,7 +1555,7 @@
 
 .logo-image {
   display: block;
-  width: 125px;
+  width: 100px;
   height: auto;
   object-fit: contain;
 }
@@ -1568,7 +1568,7 @@
 @media (max-width: 768px) {
 
   .logo-image {
-    width: 105px;
+    width: 100px;
     height: auto;
   }
 
@@ -1577,7 +1577,7 @@
 @media (max-width: 480px) {
 
   .logo-image {
-    width: 95px;
+    width: 50px;
   }
 
 }
