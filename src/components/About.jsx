@@ -1,4 +1,3 @@
-```jsx
 function About() {
   return (
     <section id="about" className="about-section">
@@ -192,4 +191,4 @@ function About() {
 }
 
 export default About;
-```
+
