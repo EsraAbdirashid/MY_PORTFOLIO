@@ -295,6 +295,14 @@
   z-index: 1000;
 }
 
+.hero {
+  min-height: calc(100vh - 90px);
+  padding-top: 90px;
+  background: #020817;
+  overflow: hidden;
+  position: relative;
+}
+
 
 /* =========================
    HERO VISUAL
