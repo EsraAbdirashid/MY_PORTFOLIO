@@ -766,3 +766,403 @@
     bottom: 15px;
   }
 }
+
+/* =========================
+   ABOUT SECTION
+========================= */
+
+.about-section {
+  position: relative;
+  padding: 110px 0 100px;
+  background: #030b1b;
+  overflow: hidden;
+}
+
+.about-section::before {
+  content: "";
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  top: 80px;
+  left: -180px;
+  border-radius: 50%;
+  background: rgba(37, 99, 235, 0.07);
+  filter: blur(80px);
+  pointer-events: none;
+}
+
+
+/* =========================
+   SECTION HEADING
+========================= */
+
+.section-heading {
+  max-width: 720px;
+  margin: 0 auto 65px;
+  text-align: center;
+}
+
+.section-heading > span {
+  display: inline-block;
+  color: #2563eb;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  margin-bottom: 12px;
+}
+
+.section-heading h2 {
+  color: #ffffff;
+  font-size: clamp(30px, 4vw, 42px);
+  line-height: 1.2;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.section-heading p {
+  max-width: 600px;
+  margin: 0 auto;
+  color: #aab2c0;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+
+/* =========================
+   ABOUT GRID
+========================= */
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 75px;
+  align-items: start;
+}
+
+
+/* =========================
+   ABOUT CONTENT
+========================= */
+
+.about-label {
+  display: block;
+  color: #2563eb;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  margin-bottom: 14px;
+}
+
+.about-content h3 {
+  max-width: 600px;
+  color: #ffffff;
+  font-size: 30px;
+  line-height: 1.3;
+  margin-bottom: 20px;
+}
+
+.about-content > p {
+  max-width: 620px;
+  color: #aab2c0;
+  font-size: 14px;
+  line-height: 1.8;
+  margin-bottom: 14px;
+}
+
+
+/* =========================
+   STATS
+========================= */
+
+.about-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  margin-top: 32px;
+}
+
+.stat-item {
+  padding: 20px 15px;
+  border: 1px solid rgba(37, 99, 235, 0.16);
+  border-radius: 9px;
+  background: rgba(2, 8, 23, 0.5);
+  transition: 0.3s ease;
+}
+
+.stat-item:hover {
+  border-color: rgba(37, 99, 235, 0.55);
+  transform: translateY(-3px);
+}
+
+.stat-item h4 {
+  color: #2563eb;
+  font-size: 27px;
+  margin-bottom: 5px;
+}
+
+.stat-item span {
+  color: #aab2c0;
+  font-size: 11px;
+  line-height: 1.4;
+}
+
+
+/* =========================
+   WHAT I DO
+========================= */
+
+.what-i-do {
+  padding-top: 2px;
+}
+
+.service-mini-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 20px;
+  margin-bottom: 15px;
+  border: 1px solid rgba(37, 99, 235, 0.13);
+  border-radius: 10px;
+  background: rgba(2, 8, 23, 0.65);
+  transition: 0.3s ease;
+}
+
+.service-mini-card:hover {
+  border-color: rgba(37, 99, 235, 0.5);
+  transform: translateX(4px);
+}
+
+.service-mini-icon {
+  width: 45px;
+  height: 45px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  color: #ffffff;
+  background: rgba(37, 99, 235, 0.15);
+  border: 1px solid rgba(37, 99, 235, 0.25);
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.service-mini-card h4 {
+  color: #ffffff;
+  font-size: 15px;
+  margin-bottom: 7px;
+}
+
+.service-mini-card p {
+  color: #9da6b5;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+
+/* =========================
+   MY SKILLS
+========================= */
+
+.skills-preview {
+  margin-top: 80px;
+  padding-top: 55px;
+  border-top: 1px solid rgba(37, 99, 235, 0.1);
+}
+
+.skills-heading {
+  margin-bottom: 35px;
+}
+
+.skills-heading h3 {
+  color: #ffffff;
+  font-size: 27px;
+  line-height: 1.3;
+}
+
+.skills-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 55px;
+  row-gap: 25px;
+}
+
+.skill-box {
+  position: relative;
+  color: #d5d9e2;
+  font-size: 13px;
+}
+
+.skill-box > span {
+  display: inline-block;
+  margin-bottom: 9px;
+}
+
+.skill-box strong {
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: #2563eb;
+  font-size: 12px;
+}
+
+.skill-bar {
+  width: 100%;
+  height: 5px;
+  overflow: hidden;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.skill-bar > span {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: #2563eb;
+}
+
+
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 1024px) {
+
+  .about-grid {
+    gap: 45px;
+  }
+
+  .about-content h3 {
+    font-size: 27px;
+  }
+
+  .skills-list {
+    column-gap: 35px;
+  }
+
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 768px) {
+
+  .about-section {
+    padding: 80px 0;
+  }
+
+  .section-heading {
+    margin-bottom: 45px;
+  }
+
+  .section-heading h2 {
+    font-size: 31px;
+  }
+
+  .section-heading p {
+    font-size: 14px;
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 55px;
+  }
+
+  .about-content {
+    text-align: center;
+  }
+
+  .about-content h3 {
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .about-content > p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .about-stats {
+    text-align: left;
+  }
+
+  .what-i-do .about-label {
+    text-align: center;
+  }
+
+  .skills-preview {
+    margin-top: 60px;
+    padding-top: 45px;
+  }
+
+  .skills-heading {
+    text-align: center;
+  }
+
+  .skills-list {
+    grid-template-columns: 1fr;
+    row-gap: 22px;
+  }
+
+}
+
+
+/* =========================
+   SMALL MOBILE
+========================= */
+
+@media (max-width: 480px) {
+
+  .about-section {
+    padding: 65px 0;
+  }
+
+  .section-heading h2 {
+    font-size: 27px;
+  }
+
+  .section-heading p {
+    font-size: 13px;
+  }
+
+  .about-content h3 {
+    font-size: 22px;
+  }
+
+  .about-content > p {
+    font-size: 13px;
+  }
+
+  .about-stats {
+    gap: 8px;
+  }
+
+  .stat-item {
+    padding: 15px 10px;
+  }
+
+  .stat-item h4 {
+    font-size: 22px;
+  }
+
+  .stat-item span {
+    font-size: 9px;
+  }
+
+  .service-mini-card {
+    padding: 16px;
+  }
+
+  .service-mini-card p {
+    font-size: 11px;
+  }
+
+  .skills-heading h3 {
+    font-size: 23px;
+  }
+
+}
+
