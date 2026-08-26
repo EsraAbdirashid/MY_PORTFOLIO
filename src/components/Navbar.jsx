@@ -1,4 +1,5 @@
 import { useState } from "react";
+import logo from "../assets/logowhite.png";
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -13,14 +14,11 @@ function Navbar() {
 
         {/* Logo */}
         <a href="#home" className="logo" onClick={closeMenu}>
-          <div className="logo-icon">
-            <span></span>
-            <span></span>
-          </div>
-
-          <div className="logo-text">
-            ESRA DIGITAL
-          </div>
+          <img
+            src={logo}
+            alt="ESRA DIGITAL"
+            className="logo-image"
+          />
         </a>
 
         {/* Navigation */}
@@ -49,7 +47,6 @@ function Navbar() {
             Contact
           </a>
 
-          {/* Hire Me - Mobile */}
           <a
             href="#contact"
             className="mobile-hire-btn"
@@ -60,7 +57,7 @@ function Navbar() {
           </a>
         </nav>
 
-        {/* Hire Me - Desktop */}
+        {/* Desktop Hire Me */}
         <a href="#contact" className="hire-btn">
           Hire Me
           <span>→</span>
