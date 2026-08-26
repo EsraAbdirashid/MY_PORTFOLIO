@@ -8,7 +8,7 @@ function App() {
       <main>
         <section id="home" className="placeholder-section">
           <h1>ESRA DIGITAL</h1>
-          <p>My Portfolio</p>
+          <p>Anigaa leh</p>
         </section>
       </main>
     </>
