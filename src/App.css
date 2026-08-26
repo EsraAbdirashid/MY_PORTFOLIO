@@ -367,7 +367,7 @@
 
 .profile-wrapper {
   position: absolute;
-  bottom: 65px;
+  bottom: 80px;
   left: 50%;
   width: 420px;
   height: 475px;
@@ -481,9 +481,10 @@
 .freelance-card {
   position: absolute;
   right: 0;
+  
   bottom: 55px;
   width: 225px;
-  min-height: 112px;
+  min-height: 100px;
   padding: 16px;
   display: flex;
   align-items: flex-start;
