@@ -1378,3 +1378,15 @@
   }
 
 }
+
+@media (max-width: 768px) {
+  .hero {
+    padding-top: 75px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    padding-top: 70px;
+  }
+}
