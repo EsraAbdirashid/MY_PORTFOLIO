@@ -275,6 +275,12 @@
   transition: 0.3s ease;
 }
 
+.social-links a svg {
+  width: 19px;
+  height: 19px;
+  display: block;
+}
+
 .social-links a:hover {
   color: #ffffff;
   background: #2563eb;
@@ -494,7 +500,16 @@
   background: rgba(2, 8, 23, 0.92);
   box-shadow: 0 12px 35px rgba(0, 0, 0, 0.3);
   z-index: 6;
+  cursor: pointer;
+  transition: 0.3s ease;
 }
+
+.freelance-card:hover {
+  border-color: #2563eb;
+  transform: translateY(-3px);
+  box-shadow: 0 15px 40px rgba(37, 99, 235, 0.18);
+}
+
 
 .freelance-icon {
   width: 42px;
