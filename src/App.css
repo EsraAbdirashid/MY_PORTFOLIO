@@ -367,7 +367,7 @@
 
 .profile-wrapper {
   position: absolute;
-  bottom: 0;
+  bottom: 18px;
   left: 50%;
   width: 420px;
   height: 475px;
