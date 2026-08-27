@@ -1,3 +1,5 @@
+import kitokitoImage from "../assets/kitokito-market.png";
+
 function Projects() {
   return (
     <section className="projects-page">
