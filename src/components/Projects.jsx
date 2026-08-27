@@ -54,9 +54,7 @@ function Projects() {
               </div>
 
               <div className="project-buttons">
-                <a href="#" className="project-btn primary">
-                  Live Demo →
-                </a>
+                
 
                 <a href="#" className="project-btn secondary">
                   GitHub
