@@ -1,4 +1,5 @@
 import kitokitoImage from "../assets/kitokito-market.png.png";
+import bilicsanImage from "./assets/Bilicsan-zoo.jpeg";
 
 function Projects() {
   return (
@@ -86,8 +87,63 @@ function Projects() {
 
           {/* Project 2 */}
             
-            
 
+      {/* Project 2 */}
+<article className="project-card">
+
+  <div className="project-image">
+    <img
+      src={bilicsanImage}
+      alt="Bilicsan Zoo Website"
+    />
+  </div>
+
+  <div className="project-content">
+
+    <span className="project-category">
+      Web Development
+    </span>
+
+    <h2>
+      Bilicsan Zoo Website
+    </h2>
+
+    <p>
+      A responsive zoo website designed with a clean layout,
+      modern navigation and engaging visual sections.
+    </p>
+
+    <div className="project-tech">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+    </div>
+
+    <div className="project-buttons">
+
+      <a
+        href="YOUR_BILICSAN_LIVE_DEMO_LINK"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="project-btn primary"
+      >
+        Live Demo →
+      </a>
+
+      <a
+        href="YOUR_BILICSAN_GITHUB_LINK"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="project-btn secondary"
+      >
+        GitHub
+      </a>
+
+    </div>
+
+  </div>
+
+</article>
 
           {/* Project 3 */}
           <article className="project-card">
