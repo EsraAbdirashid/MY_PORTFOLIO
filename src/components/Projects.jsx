@@ -1,5 +1,6 @@
 import kitokitoImage from "../assets/kitokito-market.png.png";
 import bilicsanImage from "../assets/Bilicsan-zoo.jpeg";
+import designImage from "../assets/design-project.png";
 
 function Projects() {
   return (
@@ -217,7 +218,7 @@ function Projects() {
     <div className="project-buttons">
 
       <a
-        href="YOUR_TIKTOK_LINK"
+        href="https://www.tiktok.com/@esradigital"
         target="_blank"
         rel="noopener noreferrer"
         className="project-btn primary"
