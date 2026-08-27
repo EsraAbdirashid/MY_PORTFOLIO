@@ -1,4 +1,6 @@
 import kitokitoImage from "../assets/kitokito-market.png.png";
+import kitokitoImage from "../assets/Bilicsan-zoo.jpeg";
+
 
 function Projects() {
   return (
