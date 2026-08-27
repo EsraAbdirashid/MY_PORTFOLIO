@@ -1895,3 +1895,44 @@
   }
 
 }
+
+/* =========================
+   PROJECTS PAGE
+========================= */
+
+.projects-page {
+  min-height: 100vh;
+  padding: 130px 0 100px;
+  background: #020817;
+}
+
+.back-home {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 45px;
+
+  color: #60a5fa;
+  text-decoration: none;
+
+  font-size: 14px;
+  font-weight: 500;
+
+  transition: 0.3s ease;
+}
+
+.back-home:hover {
+  color: #ffffff;
+  transform: translateX(-3px);
+}
+
+.projects-page h1 {
+  color: #ffffff;
+  font-size: 42px;
+  margin-bottom: 15px;
+}
+
+.projects-page p {
+  color: #aab2c0;
+  font-size: 16px;
+}
