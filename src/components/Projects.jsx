@@ -146,44 +146,7 @@ function Projects() {
 
 </article>
 
-          {/* Project 3 */}
-          <article className="project-card">
-
-            <div className="project-image">
-              <span>PROJECT 03</span>
-            </div>
-
-            <div className="project-content">
-
-              <span className="project-category">
-                Design
-              </span>
-
-              <h2>
-                Brand & Graphic Design
-              </h2>
-
-              <p>
-                Creative visual designs focused on branding,
-                social media graphics and digital identity.
-              </p>
-
-              <div className="project-tech">
-                <span>Photoshop</span>
-                <span>Illustrator</span>
-                <span>CapCut</span>
-              </div>
-
-              <div className="project-buttons">
-                <a href="#" className="project-btn primary">
-                  View Project →
-                </a>
-
-              </div>
-
-            </div>
-
-          </article>
+         
            {/* Project 3 */}
 <article className="project-card">
 
