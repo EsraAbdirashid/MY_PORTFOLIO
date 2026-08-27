@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -10,10 +11,7 @@ function App() {
       <main>
         <Hero />
         <About />
-
-        <div id="contact" style={{ minHeight: "500px" }}>
-  <h2>Contact</h2>
-</div>
+        <Contact />
       </main>
     </>
   );
