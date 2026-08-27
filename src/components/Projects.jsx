@@ -85,8 +85,6 @@ function Projects() {
   </div>
 
 </article>
-
-          {/* Project 2 */}
             
 
       {/* Project 2 */}
@@ -147,7 +145,7 @@ function Projects() {
 </article>
 
          
-           {/* Project 3 */}
+             {/* Project 3 */}
 <article className="project-card">
 
   <div className="project-image">
@@ -181,7 +179,7 @@ function Projects() {
     <div className="project-buttons">
 
       <a
-        href="https://www.tiktok.com/@esradigital"
+        href="YOUR_TIKTOK_LINK"
         target="_blank"
         rel="noopener noreferrer"
         className="project-btn primary"
@@ -194,7 +192,6 @@ function Projects() {
   </div>
 
 </article>
-
         </div>
 
       </div>
