@@ -160,11 +160,11 @@ function Projects() {
   <div className="project-content">
 
     <span className="project-category">
-      Design
+      Brand Design
     </span>
 
     <h2>
-      Brand & Graphic Design
+      KulanCoffee 
     </h2>
 
     <p>
