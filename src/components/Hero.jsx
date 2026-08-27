@@ -28,10 +28,10 @@ function Hero() {
           {/* Buttons */}
           <div className="hero-buttons">
 
-            <a href="#projects" className="primary-btn">
-              View My Work
-              <span>→</span>
-            </a>
+           <a href="/projects" className="primary-btn">
+  View My Work
+  <span>→</span>
+</a>
 
             <a href="/cv.pdf" className="secondary-btn" download>
               Download CV
