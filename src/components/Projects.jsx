@@ -70,7 +70,7 @@ function Projects() {
       </a>
 
       <a
-        href="GITHUB_REPOSITORY_LINK"
+        href=""
         target="_blank"
         rel="noopener noreferrer"
         className="project-btn secondary"
