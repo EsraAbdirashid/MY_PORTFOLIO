@@ -47,7 +47,7 @@ function Contact() {
 
               <div>
                 <span>Email</span>
-                <strong>your@email.com</strong>
+                <strong>esra</strong>
               </div>
             </a>
 
