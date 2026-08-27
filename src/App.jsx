@@ -12,6 +12,9 @@ function App() {
         <Hero />
         <About />
         <Contact />
+        <section id="projects" style={{ minHeight: "500px" }}>
+  <h2>Projects</h2>
+</section>
       </main>
     </>
   );
