@@ -183,8 +183,7 @@ function Projects() {
             </div>
 
           </article>
-
-          {/* Project 3 */}
+           {/* Project 3 */}
 <article className="project-card">
 
   <div className="project-image">
@@ -218,7 +217,7 @@ function Projects() {
     <div className="project-buttons">
 
       <a
-        href="YOUR_DESIGN_PROJECT_LINK"
+        href="YOUR_TIKTOK_LINK"
         target="_blank"
         rel="noopener noreferrer"
         className="project-btn primary"
