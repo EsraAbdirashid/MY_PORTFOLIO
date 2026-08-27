@@ -54,7 +54,14 @@ function Projects() {
               </div>
 
               <div className="project-buttons">
-                
+                   <a
+  href="https://esraabdirashid.github.io/KitoKito_Market/"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="project-btn primary"
+>
+  Live Demo →
+</a>
 
                 <a href="#" className="project-btn secondary">
                   GitHub
