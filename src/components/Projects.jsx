@@ -85,46 +85,8 @@ function Projects() {
 </article>
 
           {/* Project 2 */}
-          <article className="project-card">
-
-            <div className="project-image">
-              <span>PROJECT 02</span>
-            </div>
-
-            <div className="project-content">
-
-              <span className="project-category">
-                Web Development
-              </span>
-
-              <h2>
-                Bilicsan Zoo Website
-              </h2>
-
-              <p>
-                A responsive website created with a clean layout,
-                modern navigation and engaging visual sections.
-              </p>
-
-              <div className="project-tech">
-                <span>HTML</span>
-                <span>CSS</span>
-                <span>JavaScript</span>
-              </div>
-
-              <div className="project-buttons">
-                <a href="#" className="project-btn primary">
-                  Live Demo →
-                </a>
-
-                <a href="#" className="project-btn secondary">
-                  GitHub
-                </a>
-              </div>
-
-            </div>
-
-          </article>
+            
+            
 
 
           {/* Project 3 */}
