@@ -1,4 +1,4 @@
-import kitokitoImage from "../assets/kitokito-market.png";
+import kitokitoImage from "../assets/kitokito-market.png.png";
 
 function Projects() {
   return (
