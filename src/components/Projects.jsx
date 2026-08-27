@@ -61,7 +61,7 @@ function Projects() {
     <div className="project-buttons">
 
       <a
-        href="LIVE_DEMO_LINK"
+        href="https://esraabdirashid.github.io/KitoKito_Market/"
         target="_blank"
         rel="noopener noreferrer"
         className="project-btn primary"
@@ -70,7 +70,7 @@ function Projects() {
       </a>
 
       <a
-        href=""
+        href="https://github.com/EsraAbdirashid/KitoKito_Market"
         target="_blank"
         rel="noopener noreferrer"
         className="project-btn secondary"
