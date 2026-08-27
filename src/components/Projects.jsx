@@ -1,5 +1,5 @@
 import kitokitoImage from "../assets/kitokito-market.png.png";
-import bilicsanImage from "./assets/Bilicsan-zoo.jpeg";
+import bilicsanImage from "../assets/Bilicsan-zoo.jpeg";
 
 function Projects() {
   return (
@@ -122,7 +122,7 @@ function Projects() {
     <div className="project-buttons">
 
       <a
-        href="YOUR_BILICSAN_LIVE_DEMO_LINK"
+        href="https://esraabdirashid.github.io/BILICSAN-ZOO/"
         target="_blank"
         rel="noopener noreferrer"
         className="project-btn primary"
@@ -131,7 +131,7 @@ function Projects() {
       </a>
 
       <a
-        href="YOUR_BILICSAN_GITHUB_LINK"
+        href="https://github.com/EsraAbdirashid/BILICSAN-ZOO.git"
         target="_blank"
         rel="noopener noreferrer"
         className="project-btn secondary"
