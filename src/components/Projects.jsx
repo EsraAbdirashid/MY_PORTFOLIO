@@ -1,6 +1,8 @@
 import kitokitoImage from "../assets/kitokito-market.png.png";
 import bilicsanImage from "../assets/Bilicsan-zoo.jpeg";
 import designImage from "../assets/Kulancoffee-design.jpeg";
+import NovamartImage from "../assets/Novamart.jpeg";
+
 
 function Projects() {
   return (
@@ -185,6 +187,63 @@ function Projects() {
         className="project-btn primary"
       >
         View Project →
+      </a>
+
+    </div>
+
+  </div>
+
+</article>
+
+            {/* Project 1 */}
+<article className="project-card">
+
+  <div className="project-image">
+    <img
+      src={NovamartImage}
+      alt="Kitokito Market"
+    />
+  </div>
+
+  <div className="project-content">
+
+    <span className="project-category">
+      Web Development
+    </span>
+
+    <h2>
+    Novamart
+    </h2>
+
+    <p>
+      A modern and responsive e-commerce website designed
+      to provide a smooth and easy shopping experience.
+    </p>
+
+    <div className="project-tech">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+    </div>
+
+    <div className="project-buttons">
+
+      <a
+        href="https://github.com/EsraAbdirashid/NOVAMART.git"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="project-btn primary"
+      >
+        Live Demo →
+      </a>
+
+      <a
+        href="https://esraabdirashid.github.io/NOVAMART/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="project-btn secondary"
+      >
+        GitHub
       </a>
 
     </div>
