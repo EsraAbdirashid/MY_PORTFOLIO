@@ -2051,22 +2051,6 @@
    PROJECT IMAGE
 ========================= */
 
-.project-image {
-  height: 230px;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  background:
-    linear-gradient(
-      135deg,
-      rgba(37, 99, 235, 0.25),
-      rgba(2, 8, 23, 0.95)
-    );
-
-  border-bottom: 1px solid rgba(37, 99, 235, 0.12);
-}
 
 .project-image span {
   color: rgba(255, 255, 255, 0.35);
