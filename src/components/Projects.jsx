@@ -27,7 +27,62 @@ function Projects() {
         {/* Projects */}
         <div className="projects-grid">
 
-        
+            {/* Project 1 */}
+<article className="project-card">
+
+  <div className="project-image">
+    <img
+      src={kitokitoImage}
+      alt="Kitokito Market"
+    />
+  </div>
+
+  <div className="project-content">
+
+    <span className="project-category">
+      Web Development
+    </span>
+
+    <h2>
+      Kitokito Market
+    </h2>
+
+    <p>
+      A modern and responsive e-commerce website designed
+      to provide a smooth and easy shopping experience.
+    </p>
+
+    <div className="project-tech">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+    </div>
+
+    <div className="project-buttons">
+
+      <a
+        href="LIVE_DEMO_LINK"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="project-btn primary"
+      >
+        Live Demo →
+      </a>
+
+      <a
+        href="GITHUB_REPOSITORY_LINK"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="project-btn secondary"
+      >
+        GitHub
+      </a>
+
+    </div>
+
+  </div>
+
+</article>
 
           {/* Project 2 */}
           <article className="project-card">
