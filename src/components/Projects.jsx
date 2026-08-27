@@ -27,53 +27,7 @@ function Projects() {
         {/* Projects */}
         <div className="projects-grid">
 
-          {/* Project 1 */}
-          <article className="project-card">
-
-            <div className="project-image">
-              <span>PROJECT 01</span>
-            </div>
-
-            <div className="project-content">
-
-              <span className="project-category">
-                Web Development
-              </span>
-
-              <h2>
-                E-Commerce Website
-              </h2>
-
-              <p>
-                A modern and responsive e-commerce website designed
-                to provide a smooth shopping experience.
-              </p>
-
-              <div className="project-tech">
-                <span>HTML</span>
-                <span>CSS</span>
-                <span>JavaScript</span>
-              </div>
-
-              <div className="project-buttons">
-                   <a
-  href="https://esraabdirashid.github.io/KitoKito_Market/"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="project-btn primary"
->
-  Live Demo →
-</a>
-
-                <a href="#" className="project-btn secondary">
-                  GitHub
-                </a>
-              </div>
-
-            </div>
-
-          </article>
-
+        
 
           {/* Project 2 */}
           <article className="project-card">
